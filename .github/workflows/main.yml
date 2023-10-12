@@ -27,4 +27,4 @@ jobs:
     - name: Publish to GitHub Package Registry
       run: npm publish --access public  # Modify this step based on your package manager (e.g., npm, NuGet, etc.)
       env:
-        NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        NODE_AUTH_TOKEN: ${{secrets.TEST_SECRET}}
