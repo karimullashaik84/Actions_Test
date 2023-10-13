@@ -2,8 +2,9 @@ name: Publish to GitHub Package Registry
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main]
+      
+workflow_dispatch:
 
 jobs:
   publish:
